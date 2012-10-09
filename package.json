@@ -1,0 +1,24 @@
+{
+  "name": "Dynacase_FamilyStruct_Generator",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A simple script to generate Dynacase CSV file",
+  "author": "Charles Bonnissent",
+  "maintainers": [
+    "Charles Bonnissent"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:cbonnissent/dynacase-familyStruct-generator.git"
+  },
+  "engines": {
+    "node": "0.8.x",
+    "npm": "1.1.x"
+  },
+  "dependencies": {
+    "argparse": "0.1.x",
+    "cson": "1.x.x",
+    "js-yaml": "1.x.x",
+    "xml2js": "0.x.x"
+  }
+}
