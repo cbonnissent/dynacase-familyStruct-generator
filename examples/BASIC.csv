@@ -1,0 +1,6 @@
+//;Father;Title;Id;Classe;Logical Name;;;;;;;;;;;
+BEGIN;;;;;Test;;;;;;;;;;;
+//;id;parent;label;intitle;inabstract;type;order;visibilty;need;link;phpfile;phpfunc;elink;constraint;option;commentaires
+ATTR;first;;First frame;;;frame;100;;;;;;;;;
+ATTR;second;;;;;text;110;;;;;;;;;
+END;;;;;;;;;;;;;;;;

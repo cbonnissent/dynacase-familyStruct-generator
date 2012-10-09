@@ -1,0 +1,50 @@
+logicalName : "DEMO_OFFLINE"
+title : "DEMO_OFFLINE"
+METHOD : "Method.demo_offline.php"
+attributes :
+  off_f_desc :
+    << : {type : "frame", label : "Description"}
+    children :
+      off_long_desc : {type : "htmltext", label : "htmltext", visibility : "S", default : "Toto"}
+      off_text_desc : {type : "text", label : "Text", intitle : "Y"}
+      off_num_desc : {type : "int", label : "int"}
+      off_date_desc : {type : "date", label : "date"}
+      off_enum_desc : {type : "enum", label : "enum", phpfunc : "TITI|Titi,TOTO|Toto"}
+      off_file_desc : {type : "file", label : "File desc"}
+      off_a_array :
+        << : { type : "array", label : "Fichiers"}
+        children :
+            off_array_file : {type : "file", label : "Fichier"}
+            off_array_text : {type : "text", label : "Text"}
+            off_array_num : {type : "int", label : "int"}
+            off_array_date : {type : "date", label : "date"}
+  off_t_tab :
+    << : { type : "tab", label : "Tab"}
+    children :
+      off_f_tab_frame :
+        << : { type : "frame", label : "tab_frame"}
+        children :
+          off_docid_tab : {type : "docid('IUSER')", label : "Docid"}
+          off_money_tab : {type : "money", label : "Money"}
+          off_double_tab : {type : "double", label : "Double"}
+          off_date_tab : {type : "date", label : "date"}
+          off_a_tab_array :
+            << : { type : "array", label : "Fichiers"}
+            children :
+                off_tab_array_file : {type : "file", label : "Fichier"}
+                off_tab_array_text : {type : "text", label : "Text"}
+                off_tab_array_num : {type : "int", label : "int"}
+                off_tab_array_date : {type : "date", label : "date"}
+  off_t_tab2 :
+    << : { type : "tab", label : "tab2"}
+    children :
+      off_f_tab2_frame :
+        << : { type : "frame", label : "tab2_frame"}
+        children :
+         off_a_tab2_array :
+            << : { type : "array", label : "Fichiers"}
+            children :
+                off_tab2_array_file : {type : "file", label : "Fichier"}
+                off_tab2_array_text : {type : "text", label : "Text"}
+                off_tab2_array_num : {type : "int", label : "int"}
+                off_tab2_array_date : {type : "date", label : "date"}

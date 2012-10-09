@@ -1,0 +1,14 @@
+<family>
+	<logicalName>Test</logicalName>
+	<attributes>
+		<first>
+			<type>frame</type>
+			<label>First frame</label>
+			<children>
+				<second>
+					<type>text</type>
+				</second>
+			</children>
+		</first>
+	</attributes>
+</family>

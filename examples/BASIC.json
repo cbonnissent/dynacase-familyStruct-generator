@@ -1,0 +1,17 @@
+{
+	"logicalName" : "test",
+	"POF" : "PIF",
+	"title" : "toto",
+	"attributes" : {
+		"first" : {
+			"type" : "frame",
+			"label" : "test",
+			"modattr" : "",
+			"children" : {
+				"second" : {
+					"type" : "text"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,34 @@
+logicalName : "test"
+title : "ooo"
+attributes : 
+	firstFrame : { 
+		type : "frame", label : "test", order : 3000
+		children : 
+			"second" : {type : "text", order : ""}
+			"anotherArray" : {
+				type : "array",
+				children :
+					anotherChildren : {label : "anotherChildren", type : "text"}
+					anotherChildren2 : {label : "anotherChildren2", type : "date"}
+			}
+		}
+	secondFrame : {
+		type : "frame", label : "secondFrame"
+		children :
+			array : { 
+				type : "array", label : "test"
+				children :
+					first : {label : "first", type : "text"}
+					second : {label : "second", type : "enum"}
+			}
+		}
+parameters :
+	firstParam : { 
+		type : "frame", label : "param"
+		children :
+			array : {
+				type : "array", label : "test"
+				children :
+					first : { label : "first", type : "text"}
+			}
+		}
